@@ -139,7 +139,7 @@ months = ['January', "February", "March", "April", "May"]
 # heros.sort()
 # print(heros)
 
-#Exercise 3
+#Exercise 3 #
 num = int(input("Enter a max odd number: "))
 
 oddarr = []
