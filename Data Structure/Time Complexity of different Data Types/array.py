@@ -104,5 +104,47 @@ months = ['January', "February", "March", "April", "May"]
 # print(ex)
 
 
-# Exercise 2
+# # Exercise 2
+# heros=['spider woman','thor','hulki','iron woman','captain africa']
 
+# #q1 length of the list
+# l=len(heros)
+# print(l)
+
+# #q2 add blackpanther at end
+# heros.append("BlackPanther")
+# print(heros)
+
+# #q3 correct and add BlackPanther after hulki
+# #(by item name)
+# # heros.remove("BlackPanther")
+# # print(heros)
+
+# #another way(by index number)
+# heros.pop(-1)
+# print(heros)
+
+# heros.insert(4, "BlackPanther")#inserting in a particular index, shift other item backward not delete 
+# print(heros)
+
+# #remove 'thor' and 'hulki' and add "Doctor Nepali" only using single line
+# heros[1:3]=["Doctor Nepali"]
+# print(heros)
+
+# # list[start:stop] #here heros[1:3]
+# # start = index to begin (inclusive)
+# # stop = index to stop before (exclusive)
+
+# #q5 sort in alphabetical order
+# heros.sort()
+# print(heros)
+
+#Exercise 3
+num = int(input("Enter a max odd number: "))
+
+oddarr = []
+
+for i in range(1, num+1, 2):
+    oddarr.append(i) #oddarr = oddarr.append(i) return None; it does not return arrary
+
+print(oddarr)
